@@ -2,7 +2,7 @@ class BankAccount
   attr_accessor :account, :balance, :status
   attr_reader :name
 
-  def initialize(account=nil, name)
+  def initialize(account= nil, name)
     @account = account
     @name = name
     @balance = 1000
